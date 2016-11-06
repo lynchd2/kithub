@@ -250,7 +250,6 @@ Gradebook.controller('CourseShowCtrl', ['$scope', 'course', "StudentService", "A
       StudentService.editStudent(student, index, item);
     }
     else if (index > 3 && index < row.length) {
-      var student;
       var assignmentId = $scope.assignments[index - 4].id
       for(var i = 0; i < $scope.students.length; i++) {
         if($scope.students[i].id === row[0]) {

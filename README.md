@@ -68,7 +68,7 @@ The syllabi feature allows users to add lesson plans to their courses. The featu
 
 
 ###Gradebook Updates
-Bringing the tradional gradebook into the 21st century, teachers can update their gradebook in nearly anytime way, which sends an AJAX request to our API, and changes are instantly reflected accordingly. Teachers may also notify students via email about individual assignments and overall score of the class, as well as whether they are failing(under 60%) or doing expetional well(over 90%). The emails are sent using Restangular post requests to Rails. Utliziing Rail's ActionMailer with the help of SendGrid delivers emails instantly.
+Bringing the tradional gradebook into the 21st century, teachers can update their gradebook in nearly any way. Any changes to the gradebook sends an AJAX request to our API, and the changes are instantly reflected on the user side. Teachers may also notify students via email about individual assignments or overall score of the class, as well as if their students are failing(under 60%) or doing expetional well(over 90%). The emails are sent using Restangular post requests to Rails. Utliziing Rail's ActionMailer and with the help of SendGrid, emails are delivered instantly.
 
 ![Courses Page](screenshots/course_show.png "Courses Page")
 
